@@ -1,0 +1,22 @@
+GET http://localhost:3001/api/persons
+
+###
+DELETE http://localhost:3001/api/persons/8
+
+###
+    POST https://phonebook-backend-1-3hnd.onrender.com/api/persons
+    Content-Type:application/json
+
+    {
+        "name":"Postvscode",
+        "number":"000000"
+    }
+
+###
+    POST http://localhost:3001/api/persons
+    Content-Type:application/json
+
+    {
+        "name":"King Backend_2",
+        "number":"333-146-6708"
+    }
